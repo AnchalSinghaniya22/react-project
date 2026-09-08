@@ -1,6 +1,5 @@
 import React from "react";
 import Section1 from "./components/section-1/section1";
-import Section2 from "./components/section-2/section2";
 
 export const App = () => {
   const users = [
@@ -23,7 +22,7 @@ export const App = () => {
   return (
     <div>
       <Section1 users={users} />
-      <Section2 />
+      
     </div>
   );
 };
